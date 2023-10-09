@@ -4,71 +4,80 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #323;
 }
 
 .login-container {
-    background: linear-gradient(45deg, #ffea01, #2100f4);
-    border: 5px solid transparent;
-    border-image: linear-gradient(45deg, #fafa00, #3902ff);
-    border-image-slice: 1;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
 .login-box {
-    background-color: rgb(34, 37, 34);
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg, #ff0000, #00ff00);
+    border-image-slice: 1;
+    width: 300px;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #323;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: border-image 0.5s ease-in-out;
 }
 
-h2 {
-    text-align: center;
+.login-box h2 {
+    margin-top: 0;
 }
 
-form {
-    text-align: center;
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
 }
 
-.input-container {
-    margin: 10px 0;
+label {
+    display: block;
+    font-weight: bold;
 }
 
 input[type="text"],
 input[type="password"] {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #4f1f1f;
     border-radius: 5px;
-}
-
-button {
-    background-color: #0090fe;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #eaff00;
 }
 
 .options {
     margin-top: 10px;
 }
 
-a {
+.options a {
     text-decoration: none;
-    color: #007BFF;
+    color: #007bff;
     margin: 0 10px;
-    transition: color 0.3s ease;
 }
 
-a:hover {
-    color: #0056b3;
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Border Animation */
+@keyframes rotateColors {
+    0% {
+        border-image-source: linear-gradient(45deg, #ffe600, #0099ff);
+    }
+    100% {
+        border-image-source: linear-gradient(45deg, #0099ff, #ffe600);
+    }
+}
+
+.login-box:hover {
+    animation: rotateColors 2s linear infinite;
 }
