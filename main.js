@@ -16,3 +16,7 @@ function validateForm(){
     return true;
   }
 }
+
+function validatereg(){
+  
+}

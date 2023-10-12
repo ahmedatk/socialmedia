@@ -189,6 +189,6 @@ button {
     }
 }
 
-#otp-container.hidden {
-    display: none;
+#otp-container {
+    visibility: hidden;
 }
