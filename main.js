@@ -18,5 +18,17 @@ function validateForm(){
 }
 
 function validatereg(){
-  
+  email=document.reg.email;
+  if(email.value!="@"){
+    email.style.border="solid 3px red";
+    document.getElementById("eminv").style.visibility="visible";
+    return false;
+  } 
+  else{
+    document.getElementById("otp").style.visibility="visible";
+
+    true;
+
+  }
+
 }
