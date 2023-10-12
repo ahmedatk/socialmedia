@@ -82,7 +82,7 @@ button {
 .button {
     display: inline-block;
     border-radius:10px;
-    background-color: #05395e;
+    background-color: #1e9ef4;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -117,5 +117,4 @@ button {
   .button:hover span:after {
     opacity: 1;
     right: 0;
-    color: rgb(148, 150, 223);
-  }
+    color: rgb(81, 255, 0)}
