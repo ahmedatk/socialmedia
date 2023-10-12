@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css">
+    <script src="../main.js"></script>
 
     <title>Login Page</title>
 </head>
@@ -53,14 +54,16 @@
     <div class="login-container">
         <div class="login-box">
             <h2>Login</h2>
-            <form name="myForm">
+            <form name="myForm" onsubmit="return validateForm()">
                 <div class="form-group">
                     <label for="username">Username</label>
                     <input type="text" id="username" name="username" >
+                    <label id="uninv" style="color: red; visibility: hidden;">Invalid username</label>
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password">
+                    <label id="passinv" style="color: red; visibility: hidden;">Invalid Password</label>
                 </div>
                 <div class="options">
                     <a href="#">Signup</a>
@@ -72,7 +75,7 @@
         </div>
     </div>
 </body>
-<script src="../main.js"></script>
+
 </html>
 
 
