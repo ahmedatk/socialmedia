@@ -9,20 +9,20 @@ body {
 
 .login-box{
     border: #4f1f1f;
-    width: 200;
+    width: 100;
 }
 
 
 
 .login-box h2 {
-    margin-top: 0;
+    margin-top: 200;
     font-family:'Courier New', Courier, monospace;
     font-size: 40px;
 }
 
 .form-group {
     text-align:start;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     font-style:normal;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
@@ -50,7 +50,7 @@ input[type="password"] {
 
 .options a {
     text-decoration:double;
-    color: #3a424a;
+    color: #0080ff;
     margin: 0 20px;
     font:300;
     font-family: 'Courier New', Courier, monospace;
