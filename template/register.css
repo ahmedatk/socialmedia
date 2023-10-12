@@ -33,25 +33,31 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.9);
+    background: #1c1c1c;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 100px rgba(255, 0, 0, 0.2);
     text-align: left ;
 }
 
 h1 {
-    margin: 0 0 40px;
+    margin: 0 0 0px;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 500;
+
 }
 
 input {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #0040ff;
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    
 }
 
 button {
