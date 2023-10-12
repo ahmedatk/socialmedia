@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <script src="../register.js"></script>
+    <title>Register</title>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="register-container">
+        <h1>Register</h1>
+        <form id="registration-form">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <button id="submit" class="button" style="vertical-align:middle"><span>Verify </span></button>
+            <div id="otp-container" class="hidden">
+                <input type="text" name="otp" placeholder="Enter OTP" required>
+                <button id="submit" class="button" style="vertical-align:middle"><span>Login </span></button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
