@@ -18,17 +18,21 @@ function validateForm(){
 }
 
 function validatereg(){
+
+}
+let verify=document.getElementById("verify");
+verify.addEventListener('click', function(event) {
+  event.preventDefault();
   email=document.reg.email;
-  if(email.value!="@"){
+  if(email.value==""){
     email.style.border="solid 3px red";
     document.getElementById("eminv").style.visibility="visible";
     return false;
   } 
   else{
-    document.getElementById("otp").style.visibility="visible";
-
     true;
-
+    document.getElementById("verify").style.visibility="hidden";
+    document.getElementById("otp").style.visibility="visible";
   }
-
-}
+  
+});

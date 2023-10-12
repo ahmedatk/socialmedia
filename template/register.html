@@ -2,14 +2,14 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="register.css">
-    <script src="../main.js"></script>
     <title>Register</title>
+    
 </head>
 <body>
     <div class="background"></div>
     <div class="register-container">
         <h1>Register</h1>
-        <form id="registration-form" name ="reg" onsubmit="return validatereg()">
+        <form id="registration-form" name ="reg" >
             <div class="form-group">
                 <label for="Name">Name</label>
                 <input type="text" id="name" name="name" >
@@ -18,33 +18,14 @@
             <div class="form-group">
                 <input id="email" name="email" placeholder=" enter your Email">
                 <label id="eminv" style="color: red; visibility: hidden;">Invalid Email</label>
-            </div>
-
+            </div> 
+ 
             <input type="tel" name="phone" placeholder="Phone Number">
-            <button id="submit" class="button" style="vertical-align:middle"><span>Verify </span></button>
-            <div id="otp-container" class="hidden">
+            <button id="verify" class="button" style="vertical-align:middle"><span>Verify </span></button>
+             <div id="otp-container" class="hidden">
                 <input type="text" id="otp" name="otp" placeholder="Enter OTP">
                 <button id="submit" class="button" style="vertical-align:middle"><span>Login </span></button>
             </div>
-
-
-
-
-            <!-- <div class="register-box">
-                <div class="register-box h2">
-                    <h2>Login</h2>
-                    <form id="registration-form" name="regform" onsubmit="return validatereg()">
-                        <div class="form-group">
-                            <input id="email" name="email" placeholder=" enter your Email" >
-                            <label id="uninv" style="color: red; visibility: hidden;">Invalid username</label>
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" id="password" name="password">
-                            <label id="passinv" style="color: red; visibility: hidden;">Invalid Password</label>
-                        </div>
-                        
-        <button id="submit" class="button" style="vertical-align:middle"><span>Login </span></button> -->
                     </form>
                 </div>
             </div>
@@ -56,6 +37,8 @@
 
         </form>
     </div>
-    <script src="script.js"></script>
+
+    
+<script src="../main.js"></script>   
 </body>
 </html>
