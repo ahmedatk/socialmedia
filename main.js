@@ -37,11 +37,12 @@ verify.addEventListener('click', function(event) {
   // }
 
   else {
-    return true;
+     true;
     document.getElementById("verify").style.visibility="hidden";
+    document.getElementById("eminv").style.visibility="hidden";
     document.getElementById("otp").style.visibility="visible";
     document.getElementById("submit").style.visibility="visible";
-    document.getElementById("form-group1").style.height="70px";
+    // document.getElementById("form-group1").style.height="70px";
   }
   
 });
