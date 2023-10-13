@@ -27,12 +27,20 @@ verify.addEventListener('click', function(event) {
   if(email.value==""){
     email.style.border="solid 3px red";
     document.getElementById("eminv").style.visibility="visible";
-    return false;
-  } 
-  else{
-    true;
+    return false;  
+  }
+  // let phone= document.getElementById("tel");
+  // var phoneNum = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+  
+  // else if(){
+    
+  // }
+
+  else {
+    return true;
     document.getElementById("verify").style.visibility="hidden";
     document.getElementById("otp").style.visibility="visible";
+    document.getElementById("submit").style.visibility="visible";
   }
   
 });
