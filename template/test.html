@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>30-Second Timer</title>
+<style>
+#timer {
+  font-size: 24px;
+  color: red;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<div id="timer">00:30</div>
+<script>
+var timer = 30;
+
+setInterval(function() {
+  timer--;
+  document.getElementById("timer").innerHTML = timer.toString();
+  if (timer == 0) {
+    clearInterval(this);
+  }
+}, 1000);
+</script>
+</body>
+</html>
