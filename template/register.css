@@ -1,9 +1,9 @@
-/* body {
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     overflow: hidden;
-} */
+}
 
 .background {
     position: fixed;
@@ -84,7 +84,7 @@ button {
 
 #otp-container {
     visibility: hidden;
-    height: ;
+    height: 100px;
 }
 .button {
     display: inline-block;
@@ -125,6 +125,8 @@ button {
     opacity: 1;
     right: 0;
     color: rgb(81, 255, 0)}
+    
+    
     .form-group1{
         height: 65px;
     }
