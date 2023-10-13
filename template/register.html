@@ -11,16 +11,19 @@
         <h1>Register</h1>
         <form id="registration-form" name ="reg" >
             <div class="form-group">
-                <label for="Name">Name</label>
-                <input type="text" id="name" name="name" >
+                <input type="text" id="name" name="name" placeholder=" enter your Name">
             </div>
 
             <div class="form-group">
                 <input id="email" name="email" placeholder=" enter your Email">
                 <label id="eminv" style="color: red; visibility: hidden;">Invalid Email</label>
             </div> 
+
+            <div class="form-group">
+                <input id="tel" name="tel" placeholder=" enter your phonenumber">
+                <label id="eminv" style="color: red; visibility: hidden;">Invalid phonenumber</label>
+            </div> 
  
-            <input type="tel" name="phone" placeholder="Phone Number">
             <button id="verify" class="button" style="vertical-align:middle"><span>Verify </span></button>
              <div id="otp-container" class="hidden">
                 <input type="text" id="otp" name="otp" placeholder="Enter OTP">
