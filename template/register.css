@@ -126,8 +126,8 @@ button {
     right: 0;
     color: rgb(81, 255, 0)}
     .form-group1{
-        height: 65px;
-    }
-    .form-group{
         height: 50px;
     }
+    /* .form-group{
+        height: 50px;
+    } */

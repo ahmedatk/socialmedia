@@ -41,6 +41,7 @@ verify.addEventListener('click', function(event) {
     document.getElementById("verify").style.visibility="hidden";
     document.getElementById("otp").style.visibility="visible";
     document.getElementById("submit").style.visibility="visible";
+    document.getElementById("form-group1").style.height="70px";
   }
   
 });
