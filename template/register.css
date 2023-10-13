@@ -84,6 +84,7 @@ button {
 
 #otp-container {
     visibility: hidden;
+    height: ;
 }
 .button {
     display: inline-block;
@@ -125,8 +126,8 @@ button {
     right: 0;
     color: rgb(81, 255, 0)}
     .form-group1{
-        padding-bottom: 10px ;
-
-
-
+        height: 65px;
+    }
+    .form-group{
+        height: 50px;
     }
