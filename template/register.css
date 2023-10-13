@@ -118,7 +118,7 @@ button {
   }
   
   .button :hover  {
-    padding-right: 30px;
+    padding-right: 25   px;
   }
   
   .button:hover span:after {
