@@ -29,12 +29,7 @@ verify.addEventListener('click', function(event) {
     document.getElementById("eminv").style.visibility="visible";
     return false;  
   }
-  // let phone= document.getElementById("tel");
-  // var phoneNum = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
-  
-  // else if(){
-    
-  // }
+
 
   else {
      true;
@@ -42,7 +37,7 @@ verify.addEventListener('click', function(event) {
     document.getElementById("eminv").style.visibility="hidden";
     document.getElementById("otp").style.visibility="visible";
     document.getElementById("submit").style.visibility="visible";
-    // document.getElementById("form-group1").style.height="70px";
+    
   }
   
 });
