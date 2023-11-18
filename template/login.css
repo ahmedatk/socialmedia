@@ -4,12 +4,14 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(95, 92, 92);
 }
 
 .login-box{
     border: #4f1f1f;
     width: 100;
+    
+
 }
 
 
@@ -37,8 +39,10 @@ input[type="text"],
 input[type="password"] {
     width: 100%;
     padding: 10px;
-    border: 1px solid #0526ff;
+    border: 1px solid #001eff;
     border-radius: 5px;
+    background-color: #898484;
+
 }
 
 .options {
@@ -50,7 +54,7 @@ input[type="password"] {
 
 .options a {
     text-decoration:double;
-    color: #0080ff;
+    color: #00ff37;
     margin: 0 20px;
     font:300;
     font-family: 'Courier New', Courier, monospace;
@@ -108,7 +112,7 @@ input[type="password"] {
   
   .button:hover span:after {
     opacity: 1;
-    right: 0;
+    right: 1;
     color: rgb(81, 255, 0);
   }
 

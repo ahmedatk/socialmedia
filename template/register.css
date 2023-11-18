@@ -15,6 +15,9 @@
     animation: background-animation 3s ease infinite;
     z-index: -1;
 }
+.login-box h2{
+    font-family:'Courier New', Courier, monospace;
+}
 
 @keyframes background-animation {
     0% {
@@ -36,7 +39,7 @@
     background: #ffffff;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 0 100px rgba(255, 0, 0, 0.2);
+    box-shadow: 0 0 100px rgba(221, 112, 112, 0.2);
     text-align: left ;
 }
 
