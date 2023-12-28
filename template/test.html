@@ -11,15 +11,15 @@
 </style>
 </head>
 <body>
-<div id="timer">30</div>
+<div id="timer"></div>
 <script>
-var timer = 30;
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 setInterval(function() {
-  timer--;
+  seconds--;
   document.getElementById("timer").innerHTML = timer.toString();
   if (timer == 0) {
-    clearInterval(this);
+    clearInterval(seconds);
   }
 }, 1000);
 </script>

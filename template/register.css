@@ -159,3 +159,13 @@ button {
         font-family: 'Courier New', Courier, monospace;
         font-size: 20px;
     }
+    .resend-otp-btn {
+        background-color: #000000;
+        color: #988e8e;
+        padding: 0px 10px;
+        border-radius: 35px;
+        cursor: pointer;
+        position: absolute;
+        left: 100%;
+
+      }
