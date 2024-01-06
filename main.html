@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nvstrr</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse" style="overflow-x: hidden;background-color:#FFFFFF;">
+  <div class="navbar navbar-default navbar-fixed-top" style="font-family: 'Cormorant SC', serif; font-size:1.2em;">
+      <div class="container-fluid ">
+        <div class="navbar-header">
+
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav">
+            <li><a href="#topr">Home</a></li>
+            <li><a href="#mid " >Portfolio</a></li>
+            <li><a href="#team" >Option chain</a></li>
+            <li> <a href="#footer" >Profile</a></li>
+          </ul>
+
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="search">
+        <form action="" class="search-bar">
+            <input type="text">
+            <button type="submit"></button>
+        </form>
+    </div>
+
+    <div class ="chart1">
+
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+    {
+    "symbols": [
+      [
+        "Apple",
+        "AAPL|1D"
+      ]
+    ],
+    "chartOnly":false,
+    "width": 700,
+    
+    "height": 500,
+    "locale": "in",
+    "colorTheme": "light",
+    "autosize": false,
+    "showVolume": false,
+    "showMA": false,
+    "hideDateRanges": false,
+    "hideMarketStatus": false,
+    "hideSymbolLogo": false,
+    "scalePosition": "right",
+    "scaleMode": "Normal",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+    "fontSize": "10",
+    "noTimeScale": false,
+    "valuesTracking": "1",
+    "changeMode": "price-and-percent",
+    "chartType": "area",
+    "maLineColor": "#2962FF",
+    "maLineWidth": 1,
+    "maLength": 9,
+    "lineWidth": 2,
+    "lineType": 0,
+    "dateRanges": [
+      "1d|1",
+      "1m|30",
+      "3m|60",
+      "12m|1D",
+      "60m|1W",
+      "all|1M"
+    ]
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+
+
+  <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+    {
+    "symbols": [
+      [
+        "NASDAQ:GOOGL|1D"
+      ]
+    ],
+    "chartOnly": false,
+    "width": 700,
+    "height": 500,
+    "locale": "in",
+    "colorTheme": "light",
+    "autosize": false,
+    "showVolume": false,
+    "showMA": false,
+    "hideDateRanges": false,
+    "hideMarketStatus": false,
+    "hideSymbolLogo": false,
+    "scalePosition": "right",
+    "scaleMode": "Normal",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+    "fontSize": "10",
+    "noTimeScale": false,
+    "valuesTracking": "1",
+    "changeMode": "price-and-percent",
+    "chartType": "area",
+    "maLineColor": "#2962FF",
+    "maLineWidth": 1,
+    "maLength": 9,
+    "lineWidth": 2,
+    "lineType": 0,
+    "dateRanges": [
+      "1d|1",
+      "1m|30",
+      "3m|60",
+      "12m|1D",
+      "60m|1W",
+      "all|1M"
+    ]
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+</div>
+<div class="container-fluid" style="background-color:#F8F8F8;">
+<div class="row" style="margin-top:10px;margin-bottom:10px;">
+
+  <div><center><p> fsd project &copy;</p></center></div>
+
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+    <script>
+	$(".contentContainer").css("min-height",$(window).height());
+
+  /*$(window).scroll(function(e){
+    parallax();
+  });
+  function parallax(){
+    var scrolled = $(window).scrollTop();
+    $('#topr').css('top',-(scrolled*0.2)+'px');
+  }*/
+  /*function animationHover(a, element, animation){
+    element = $(element);
+    a=$(a);
+    a.mouseover(
+        function() {
+            element.css("opacity", 1);
+        });
+    a.mouseover(
+        function() {
+            element.addClass('animated ' + animation);
+        });
+      }*/
+
+      $(document).ready(function(){
+    $("#para1").mouseover(function(){
+        $("#buffet").addClass('animated ' + 'slideInLeft' );
+    });
+    $("#para1").mouseover(function(){
+        $("#buffet").css("opacity", 1);
+    });
+    $("#para1").mouseover(function(){
+        $("#warren").addClass('animated ' + 'zoomIn' );
+    });
+    $("#para1").mouseover(function(){
+        $("#warren").css("opacity", 1);
+    });
+    $("#para2").mouseover(function(){
+        $("#george").addClass('animated ' + 'slideInRight' );
+    });
+    $("#para2").mouseover(function(){
+        $("#george").css("opacity", 1);
+    });
+    $("#para2").mouseover(function(){
+        $("#soros").addClass('animated ' + 'zoomIn' );
+    });
+    $("#para2").mouseover(function(){
+        $("#soros").css("opacity", 1);
+    });
+  });
+
+/*{% if not user.is_authenticated %}
+$("ul.nav.navbar-nav.navbar-right").css("display","none");
+{% endif %}*/
+
+    </script>
+
+
+</body>
+</html>

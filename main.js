@@ -19,7 +19,7 @@ function validateForm(){
 
 function validatereg(){
 
-}
+}queueMicrotask
 let verify=document.getElementById("verify");
 verify.addEventListener('click', function(event) {
   event.preventDefault();
@@ -37,7 +37,6 @@ verify.addEventListener('click', function(event) {
     document.getElementById("eminv").style.visibility="hidden";
     document.getElementById("otp").style.visibility="visible";
     document.getElementById("submit").style.visibility="visible";
-    
+    0
   }
-  
 });
