@@ -30,7 +30,6 @@
         </form>
     </div>
 
-    <div class ="chart1">
 
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container1">
@@ -46,7 +45,6 @@
     ],
     "chartOnly":false,
     "width": 700,
-    
     "height": 500,
     "locale": "in",
     "colorTheme": "light",
@@ -130,7 +128,6 @@
     </script>
   </div>
   <!-- TradingView Widget END -->
-</div>
 <div class="container-fluid" style="background-color:#F8F8F8;">
 <div class="row" style="margin-top:10px;margin-bottom:10px;">
 
@@ -140,70 +137,7 @@
 
 </div>
 </div>
-
-
-
-
-
-
-
-
-    <script>
-	$(".contentContainer").css("min-height",$(window).height());
-
-  /*$(window).scroll(function(e){
-    parallax();
-  });
-  function parallax(){
-    var scrolled = $(window).scrollTop();
-    $('#topr').css('top',-(scrolled*0.2)+'px');
-  }*/
-  /*function animationHover(a, element, animation){
-    element = $(element);
-    a=$(a);
-    a.mouseover(
-        function() {
-            element.css("opacity", 1);
-        });
-    a.mouseover(
-        function() {
-            element.addClass('animated ' + animation);
-        });
-      }*/
-
-      $(document).ready(function(){
-    $("#para1").mouseover(function(){
-        $("#buffet").addClass('animated ' + 'slideInLeft' );
-    });
-    $("#para1").mouseover(function(){
-        $("#buffet").css("opacity", 1);
-    });
-    $("#para1").mouseover(function(){
-        $("#warren").addClass('animated ' + 'zoomIn' );
-    });
-    $("#para1").mouseover(function(){
-        $("#warren").css("opacity", 1);
-    });
-    $("#para2").mouseover(function(){
-        $("#george").addClass('animated ' + 'slideInRight' );
-    });
-    $("#para2").mouseover(function(){
-        $("#george").css("opacity", 1);
-    });
-    $("#para2").mouseover(function(){
-        $("#soros").addClass('animated ' + 'zoomIn' );
-    });
-    $("#para2").mouseover(function(){
-        $("#soros").css("opacity", 1);
-    });
-  });
-
-/*{% if not user.is_authenticated %}
-$("ul.nav.navbar-nav.navbar-right").css("display","none");
-{% endif %}*/
-
-    </script>
-
+ 
 
 </body>
 </html>
