@@ -82,7 +82,7 @@
 #suggestions {
   position: absolute;
   background-color: #999999;
-  border: 1px solid #1aff00;
+  border: 0px solid #1aff00;
   max-height: 130px;
   width: 300px;
   overflow-x: auto;
