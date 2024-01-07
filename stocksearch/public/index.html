@@ -3,15 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
   <title>Financial Chart</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-  <label for="stockSymbol">Stock Symbol:</label>
-  <input type="text" id="stockSymbol" placeholder="Enter stock symbol">
-  <button onclick="fetchData()">Fetch Data</button>
+  <body data-spy="scroll" data-target=".navbar-collapse" style="overflow-x: hidden;background-color:#FFFFFF;">
+    <div class="navbar navbar-default navbar-fixed-top" style="font-family: 'Cormorant SC', serif; font-size:1.2em;">
+        <div class="container-fluid ">
+          <div class="navbar-header">
   
-  <canvas id="financialChart" width="800" height="400"></canvas>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav">
+              <li><a href="#topr">Home</a></li>
+              <li><a href="#mid " >Portfolio</a></li>
+              <li><a href="#team" >Option chain</a></li>
+              <li> <a href="#footer" >Profile</a></li>
+            </ul>
+  
+  
+          </div>
+        </div>
+      </div>
+  
+      <div class="search">
+    <label for="stockSymbol">Stock Symbol:</label>
+    <input type="text" id="stockSymbol" placeholder="Enter stock symbol">
+    <button onclick="fetchData()" class="glow-on-hover">Fetch Data</button>
+  </div>
+  
+  <div id="chart">
+    <canvas id="financialChart" width="800" height="400"></canvas>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
