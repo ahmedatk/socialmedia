@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 app.get('/fetchData', async (req, res) => {
     try {
       const apiKey = 'oeDOoawsGAgTpnK4sbyyzTlCxjW1FFev';
-      const stockSymbol = req.query.stockSymbol || 'AAPL'; // Default to AAPL if no symbol is provided
+      const stockSymbol = req.query.stockSymbol || 'AAPL'; // Default to AAPL
   
       const response = await axios.get(`https://financialmodelingprep.com/api/v3/historical-price-full/${stockSymbol}?apikey=${apiKey}`);
       const historicalData = response.data.historical;

@@ -41,5 +41,3 @@ verify.addEventListener('click', function(event) {
   }
 });
 
-// portfolio
-

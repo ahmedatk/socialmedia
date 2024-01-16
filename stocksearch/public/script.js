@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Initial load without a specific stock symbol
+   
     fetchData();
   });
   
-  let myChart; // Declare myChart outside of the fetchData function
+  let myChart; 
   
   async function fetchData() {
     try {
       const stockSymbolInput = document.getElementById('stockSymbol');
-      const stockSymbol = stockSymbolInput.value || 'AAPL'; // Default to AAPL if no symbol is provided
+      const stockSymbol = stockSymbolInput.value || 'AAPL'; // Default to AAPL
   
       const response = await fetch(`/fetchData?stockSymbol=${stockSymbol}`);
   
@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
   
       const data = await response.json();
   
-      // Destroy the existing chart if it exists
       if (myChart) {
         myChart.destroy();
       }
