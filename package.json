@@ -4,13 +4,16 @@
   "description": "Ahmed and Rachit trying to make a Social Media page for college\r This is a project we are trying to build and will finish as soon as possible and will also try to launch it as soon as possible\r This will help us in our placements and will also tell us how to face clients and will also get real time experience and clout in college\r Let's hop for the best!!!\r changes made",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "mongodb": "^6.3.0"
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.4",
+    "nodemon": "^3.0.2"
   }
 }

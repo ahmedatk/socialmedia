@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb');
 
-const url = 'mongodb+srv://rachitkum123456:<password>@cluster0.d8h9fbk.mongodb.net/?retryWrites=true&w=majority'; 
+const url = 'mongodb+srv://ahmedzaweel:O7uoKpcnklsR5GWA@stock-profile.dbdvxpt.mongodb.net/?retryWrites=true&w=majority'; 
 const dbName = 'test'; 
 
 const client = new MongoClient(url, { useUnifiedTopology: true });

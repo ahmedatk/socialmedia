@@ -9,9 +9,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.post('/register', async (req, res) => {
-  const { name, email, password } = req.body;
+  const { name, email, tel } = req.body;
 
-  if (!name || !email || !password) {
+  if (!name || !email || !tel) {
     return res.status(400).json({ error: 'All fields are required' });
   }
 
@@ -21,7 +21,7 @@ app.post('/register', async (req, res) => {
     const user = await db.collection('users').insertOne({
       name,
       email,
-      password,
+      tel,
     });
 
     console.log('User registered:', user.ops[0]);
